@@ -1,0 +1,103 @@
+.sidebar {
+  border-right: 1px solid rgb(47, 51, 54);
+  width: 392px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar-items {
+  padding-left: 120px;
+}
+
+.logo-icon-div {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.logo-icon-div:hover {
+  background-color: rgb(231, 233, 234,0.1);
+}
+
+.logo-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.icons-div {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 12px 30px 12px 12px;
+  width: fit-content;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.icons-div:hover {
+  background-color: rgb(231, 233, 234,0.1);
+}
+
+.icons-general {
+  width: 26px;
+  padding-right: 20px;
+}
+
+.post-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding: 16px 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.sidebar-profile {
+  margin-top: 85px;
+  margin-left: 120px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.sidebar-profile:hover {
+  background-color: rgb(231, 233, 234,0.1);
+
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 40%;
+  border-radius: 50%;
+}
+
+.sidebar-profile-middle {
+  margin-left: 15px;
+  margin-right: 80px;
+}
+
+.my-name, .more-p {
+  font-weight: 500;
+}
+
+.my-link {
+  color: rgb(113, 118, 123);
+}
+
+.more-p {
+  font-size: 20px;
+}

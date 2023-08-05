@@ -6,7 +6,7 @@
   width: 600px;
   border: 1px solid rgb(47, 51, 54);
   border-top: none;
-  height: 500px;
+  height: 1200px;
 }
 
 .first-block {
@@ -22,7 +22,7 @@
 }
 
 .profile-img-div {
-  margin-right: 15px;
+  padding-right: 15px;
 }
 
 .profile-img {
@@ -81,4 +81,78 @@
   font-size: 17px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.show-tweets {
+  color: rgb(29, 155, 240,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+  border-bottom: 1px solid rgb(47, 51, 54);
+
+}
+
+.post-sect {
+  display: flex;
+  padding: 15px 15px 8px 15px;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.post-img {
+  width: 100%;
+  border: 1px solid rgb(47, 51, 54);
+  border-radius: 20px;
+}
+
+.post-head-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.post-header {
+  font-weight: 500;
+}
+.three-dot {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(107, 107, 107);
+}
+.post-header span {
+  font-weight: 400;
+  color: rgb(107, 107, 107);
+}
+
+.post-txt, .post-txt2, .post-txt3 {
+  font-size: 15px;
+}
+
+.post-txt2 {
+  padding: 20px 0;
+}
+
+.post-txt3 {
+  padding-bottom: 15px;
+}
+
+.icon-num {
+  display: flex;
+  align-items: center;
+}
+.icon-num p {
+  color: rgb(113, 118, 123);
+  font-size: 14px;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-icon {
+  width: 16px;
+  height: 16px;
+  padding: 8px;
 }
